@@ -1,5 +1,25 @@
 4 de Marzo : Inductores y Servidor linux
 
-11 de Marzo : Inductores (medición) , capacitores y lanzamiento de cuentas xbuntu. Seguimiento de satélites.
+11 de Marzo :
+-Inductores (medición) 
+-Capacitores y lanzamiento de cuentas xbuntu 
+-Seguimiento de satélites.
+
+18 de Marzo:
+-Medicion de Capacitores
+-Uso de GPREDICT y del ISS DETECTOR
+-Instalacion de GPREDICT en linux
+
+25 de Marzo:
+-Escuchas en VHF SDR RADIO FREc. 146.820 MHz 147.390
+-Equipos para satelites
+-Equipo de fotografia (vemos tutoriales de como sacar fotos a la luna)
+-Equpo para asistir a la clase de redaccion de infromes
+-Entrega primer reporte Sprint 1
+
+1 de Abri:
+-Equipo para monitoreo de Walkie Talkie en frecuencia del Cerro Arco
+-Equipo para investigar fotografia para sacar fotos a la luna
+-Equipo trabaja en el servidor linux
 
 
