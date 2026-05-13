@@ -1,36 +1,38 @@
 Bitácora mecatrónica:
 
+05/04/2026:
+
 Descargar una aplicación para encontrar la estación espacial internacional e intentar fotografiarla con los teléfonos. Posterior a ello, fotografiarla con una cámara más profesional.
+
+08/04/2026:
 
 Desarmar un cargador de auriculares inalámbricos para sacarle el conversor. Crear usuarios (cada uno) en la computadora que va a hacer de servidor en la oficina de logística. Escuchar transmisiones de radiofrecuencia a través de una aplicación y de un programa en la computadora.
 
-Un grupo pequeño se queda en el aula escuchando la explicación sobre como elaborar informe. Otro grupo va a estar monitoreando 2 frecuencias durante 2 horas donde se anotará todo lo que se escuche y de que tan lejos vienen las señales. Otro grupo va a ver tutoriales sobre como fotografiar la Luna con la cámara profesional. Cuando oscurezca, fotografiar la Luna y los satélites de Júpiter. Escribir un informe que nos sirva como machete sobre la metodología Scrum, y con lo que son los White Bekt, Green Belt y la metodología ágil.
+12/04/26: 
 
-Investigar como es que funciona el programa de computadora gpredict que dice la posición de satélites en el espacio, y también averiguar la funcionalidad para controlar rotores de modo que apunten a los satélites. Descargar una aplicación para el teléfono llamada Zello que permite hacer llamadas de voz, se puede conectar a los handies y transmitir por la radio. Configurar la cámara para astrofotografía, investigar como se hace y sacar fotos. Intentar fotografiar la ISS con la cámara profesional.
+Nos dividimos en grupos para trabajar, un grupo tenemos que modelar la antena para los 22,116 MHz y el otro grupo obtiene los valores del exif
 
-Un grupo intentó monitorear las frecuencias de la repetidora local en el cerro. Luego aprendieron a usar el software para sintonizar las frecuencias y lograron recibir y grabar algunos mensajes. Otro grupo se quedó viendo la presentación (clase) y otro grupo intentó armar un servidor VPN para conectarse por ssh a la computadora, pero como no tenemos una IP pública hubo que usar un servicio externo.
+15/04/26: 
 
-Usar el control de rotores de gpredict. Está hecho para interactuar con servidores de hamlib creados por el comando rotctld. Solo requiere que le indiquen en que dirección y puerto está el servidor. Rotctld puede conectarse a rotores a través de TCP/IP o de puertos seriales. El aparato que controla realmente el rotor tiene que implementar alguno de los protocolos de comunicación especificados en la lista de rotctld.
+Estudiamos el batido de ondas sumando dos senales sinusoidales, para entender como el SDR baja las fecuencias altas. 
+En el final de la clase nos fuimos y montamos una antena de hilo largo en el mastil de la bander para motinorear entre 7Mhz y 28MHz
 
-Modelar una antena radial para los 22.116 MHz, luego armarla. Ir al techo a escuchar los aviones usando la antena y el rtlsdr1090
+22/04/26:
 
-Batido de ondas http://themys.sid.uncu.edu.ar/rpalma/Mecatronica/Batido%20de%20Ondas.zip
+Trabajamos en investigar el GPREDICT para controlar los motores con un arduino. Ademas vimos una antena circular en el laboratorio.
+Simulamos con MMANA-GAL para la fecuencia de 144.400 MHz probamos varias configuraciones y hicimos comparaciones. Al concluimos que la Yagi es la ideal
 
-Batido de ondas en SDR con down converter
+29/04/26:
 
-Seguimiento de aeronaves con https://www-rtl--sdr-com.translate.goog/a-detailed-guide-to-setting-up-rtl1090-for-ads-b-decoding/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+En esta clase decidimos usar la antena MOXON para el prototipo final, por la compacidad y la robustez. Calculamos tambien las dimensiones fisicas para el prototipo, usando un calculador tecnico considerando un conductor de 1mm, obtenemos un ancho de 748.8mm, excitado de 108mm, separacion de puntas 25.8mm, longitud total del excitador 964.7mm y la longitud total del reflector de 1031.9mm. 
 
-Descarga de software https://www.jetvision.de/manuals/rtl1090.zip
+06/05/26: 
 
-Monitoreo de frecuencas 7.050 MHz a 7.150 MHz y 28.400 MHz a 28500 MHz antena de hilo largo en el mástil
+Sin clases
 
-Simulaciones en mmana-gal y presentación de 1er SPRINT
+13/05/26:
 
-Escuchamos en grupo frecuencias de aviones usando la antena dipolo. Armado de grupos y repartimiento de antenas. Montar una antena en el mastil de la bandera. Escuchamos diversas frecuencias de diferentes lugares.
 
-Usar el Arduino para intentar que el gpredict controle motores. intentar con SDR++. Simulación de antenas en Mmana-Gal. Programa alternativo para modelado de antenas. Ver antena circular.
 
-Finalizar puesta a punto SDR en PC Windows Sustituir RTLSDR Sharp por RTLSDR++ (plus plus). Luego simular en MMana-Gal de las antenas Antena Magnetic Loop. Luego investigar sobre Xnec2c para simular antenas (sustituto de Mmana-Gal.
 
-Armar modelos de las antenas (Dipolo, Paragüa, Moxon, Cinta de Metro, Yagui, Random Wire, End feed half wave, End feed random wire) para la frecuencia a la que vamos a trabajar (144.400 MHz, la altura es a nivel del piso).
 
